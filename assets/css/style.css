@@ -3,90 +3,73 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-footer h2, header h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-p {
     font-size: 16px;
 }
-
-header {
+#credits, #company-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-header h1 {
+#company-name {
     display: inline-block;
     font-size: 48px;
 }
-
-header nav {
+#page-navigation {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
-
-header a {
+.navigation-links {
     margin-left: 26px;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
 }
-
-span.seo {
+#seo {
     color: #d9dcd6;
 }
-
-img.hero {
+#main-image {
     display: block;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     object-fit: cover;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
-
-main {
+#main-services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-main section {
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
     color: #ffffff;
 }
-
-main img {
-    max-height: 200px;
-}
-
-main h2 {
+.main-service-heading {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-aside {
+#additional-services {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,29 +78,24 @@ aside {
     height: 100%;
     background-color: #2589bd;
 }
-
-aside section {
+.additional-service{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-aside h3 {
+.additional-service-heading {
     margin-bottom: 10px;
     text-align: center;
 }
-
-aside img {
+.additional-service-image{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-footer {
+#credits {
     padding: 30px;
     clear: both;
     text-align: center;
 }
-
-footer h2 {
+#credits-author {
     font-size: 20px;
 }
