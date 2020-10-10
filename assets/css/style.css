@@ -1,100 +1,128 @@
+/* 
+*  CSS TABLE OF CONTENTS
+*   
+*  1.0 - Globals
+*  2.0 - Body
+*    2.1 - Header
+*    2.2 - Hero Image
+*    2.3 - Main Section
+*    2.4 - Aside Section
+*  3.0 - Footer
+*/
+
+
+
+/* 1.0 - Globals */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+
+/* 2.0 - Body */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
-#credits, #company-name {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#header {
-    padding: 20px;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-#company-name {
-    display: inline-block;
-    font-size: 48px;
-}
-#page-navigation {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-}
-.navigation-links {
-    margin-left: 26px;
-    font-size: 20px;
-    color: #ffffff;
-    text-decoration: none;
-}
-#seo {
-    color: #d9dcd6;
-}
-#main-image {
-    display: block;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    object-fit: cover;
-}
-.float-left {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
-}
-.float-right {
-    float: right;
-    margin-left: 25px;
-    max-height: 200px;
-}
-#main-services {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.main-service-heading {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-#additional-services {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #2589bd;
-}
-.additional-service{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.additional-service-heading {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.additional-service-image{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+
+    /* 2.1 - Header */
+    #header {
+        padding: 20px;
+        background-color: #2a607c;
+        color: #ffffff;
+    }
+    #company-name {
+        display: inline-block;
+        font-size: 48px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #page-navigation {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+    }
+    .navigation-links {
+        margin-left: 26px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    #seo {
+        color: #d9dcd6;
+    }
+
+    /* 2.2 - Hero Image */
+    #main-image {
+        display: block;
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        object-fit: cover;
+    }
+
+    /* 2.3 - Main Section */
+    .float-left-img {
+        float: left;
+        margin-right: 25px;
+        max-height: 200px;
+    }
+    .float-right-img {
+        float: right;
+        margin-left: 25px;
+        max-height: 200px;
+    }
+    #main-services {
+        width: 75%;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #search-engine-optimization,
+    #online-reputation-management,
+    #social-media-marketing {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    .main-service-heading {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    /* 2.4 - Aside Section */
+    #additional-services {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 20%;
+        height: 100%;
+        background-color: #2589bd;
+    }
+    .additional-service-entry{
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+    .additional-service-heading {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .additional-service-image{
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+
+
+/* 3.0 - Footer */
 #credits {
     padding: 30px;
     clear: both;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #credits-author {
     font-size: 20px;
