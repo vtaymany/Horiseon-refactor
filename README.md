@@ -11,7 +11,7 @@
     * Rework the CSS to make it more efficient
         * Add results
 
-* Replaces <div> containers with their semantic counterparts
+* Replaces div containers with their semantic counterparts
 
 * Assures that the structure of the HTML elements follow a logical structure independent of styling and positioning
 
