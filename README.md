@@ -22,9 +22,3 @@
 * Assures that the heading attributes fall in sequential order
 
 * Assures that the title element is concise and descriptive
-
-<<<<<<< HEAD
-* Deploys application at a live URL
-=======
-* Deploys application at a live URL
->>>>>>> bb006d3da7bbee549021bc9760a8f50d07b31e5d
