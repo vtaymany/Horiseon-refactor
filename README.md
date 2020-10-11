@@ -35,9 +35,11 @@
 * No installation is required. The webpage may be viewed [here](https://vtaymany.github.io/Horiseon-refactor/)
 
 ## Roadmap
-* It is advised to switch to a CSS framework such as Bootstrap or Foundation
-    * The following would allow for responsiveness across multiple viewports
-    * The following would also allow you to keep classes and ID's on all elements for their performance advantages while upgrading to a more standardized and scalable method of development
+* It is advised to switch to a CSS framework such as Bootstrap or Foundation.
+
+* If implemented correctly, doing so would allow for:
+    * responsiveness across multiple viewports
+    * performance benefits of classes and ID's while creating a more standardized and scalable method of development
 
 ## Screenshots
 ![Performance improvement results](./assets/screenshots/recalculates-style-test-results.png "Performance improvement results")
