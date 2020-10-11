@@ -1,17 +1,13 @@
 # Horiseon-refactor
 
-### Main project goal
+## Main project goal
 
-* This project optimizes Horiseon for search engines by improving accessbility all the while maintaining visual appearance.
+* This project optimizes Horiseon for search engines by improving the accessbility of their webpage all
 
-### Approaches used to reach goal
+## Updates
+* Note: None of the following changes alters the visual appearance of the page
 
-* Improves codebase for long-term sustainability
-    * Assures that all links are functioning correctly
-    * Organizes CSS to follow the semantic structure of the HTML elements
-        * Includes comments before each element or section
-    * Reworks the CSS to make it more efficient
-        * Add results
+### HTML
 
 * Replaces div containers with their semantic counterparts
 
@@ -22,3 +18,12 @@
 * Assures that the heading attributes fall in sequential order
 
 * Assures that the title element is concise and descriptive
+
+### CSS
+
+* Improves codebase for long-term sustainability
+    * Assures that all links are functioning correctly
+    * Organizes CSS to follow the semantic structure of the HTML elements
+        * Includes comments before each element or section
+    * Reworks the CSS to make it more efficient
+        * Add results
