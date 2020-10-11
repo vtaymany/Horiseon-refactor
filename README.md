@@ -26,11 +26,18 @@
 * Organizes CSS to follow the semantic structure of the HTML elements
     * Includes comments before each element or section
 * Reworks the CSS to make it more efficient
+    * Classes and ID's were added to all elements
+    * Descendant combinators were avoided due to their resource intensive nature
     * The recalculated style times have decreased by 63.59% (see screenshots for results)
         * This is actually important for SEO because popular search engines factor in load speeds when ranking webpages
 
 ## Installation
 * No installation is required. The webpage may be viewed [here](https://vtaymany.github.io/Horiseon-refactor/)
+
+## Roadmap
+* It is advised to switch to a CSS framework such as Bootstrap or Foundation
+    * The following would allow for responsiveness across multiple viewports
+    * The following would also allow you to keep classes and ID's on all elements for their performance advantages while maintaining a more standardized and scalable method of development
 
 ## Screenshots
 ![Performance improvement results](./assets/screenshots/recalculates-style-test-results.png "Performance improvement results")
