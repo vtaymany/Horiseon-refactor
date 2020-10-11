@@ -2,7 +2,7 @@
 
 ## Main project goal
 
-* This project optimizes Horiseon for search engines by improving the accessbility of their webpage
+* This project optimizes Horiseon on search engines by improving the accessibility of their webpage
 
 ## Updates
 * **Note** None of the following changes alters the visual appearance of the page
