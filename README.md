@@ -2,10 +2,10 @@
 
 ## Main project goal
 
-* This project optimizes Horiseon for search engines by improving the accessbility of their webpage all
+* This project optimizes Horiseon for search engines by improving the accessbility of their webpage
 
 ## Updates
-* Note: None of the following changes alters the visual appearance of the page
+* **Note** None of the following changes alters the visual appearance of the page
 
 ### HTML
 
@@ -22,18 +22,25 @@
 ### CSS
 
 * Improves codebase for long-term sustainability
-    * Assures that all links are functioning correctly
-    * Organizes CSS to follow the semantic structure of the HTML elements
-        * Includes comments before each element or section
-    * Reworks the CSS to make it more efficient
-        * Add results
+* Assures that all links are functioning correctly
+* Organizes CSS to follow the semantic structure of the HTML elements
+    * Includes comments before each element or section
+* Reworks the CSS to make it more efficient
+    * The recalculated style times have decreased by 63.59% (see screenshots for results)
+        * This is actually important for SEO because popular search engines factor in load speeds when ranking webpages
 
 ## Installation
 * No installation is required. The webpage may be viewed [here](https://vtaymany.github.io/Horiseon-refactor/)
 
+## Screenshots
+![Performance improvement results](./assets/screenshots/recalculates-style-test-results.png "Performance improvement results")
+![Original performance](./assets/screenshots/original-recalcualate-style-time.png "Original performance")
+![Original performance](./assets/screenshots/recalculates-style-test-results.png "Refactored performance")
+
 ## Credits
 * [Google - Reduce the Scope and Complexity of Style Calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
-* [csswizardry - Writing efficient CSS selectors](https://csswizardry.com/2011/09/writing-efficient-css-selectors/)
+* [Google - Speed is now a landing page factor for Google Search and Ads](https://developers.google.com/web/updates/2018/07/search-ads-speed)
+* [CSSwizardry - Writing efficient CSS selectors](https://csswizardry.com/2011/09/writing-efficient-css-selectors/)
 * [Freecodecamp - CSS Comment Example – How To Comment Out CSS](https://www.freecodecamp.org/news/comments-in-css/)
 
 ## License
