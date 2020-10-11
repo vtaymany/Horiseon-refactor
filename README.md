@@ -37,7 +37,7 @@
 ## Roadmap
 * It is advised to switch to a CSS framework such as Bootstrap or Foundation
     * The following would allow for responsiveness across multiple viewports
-    * The following would also allow you to keep classes and ID's on all elements for their performance advantages while maintaining a more standardized and scalable method of development
+    * The following would also allow you to keep classes and ID's on all elements for their performance advantages while upgrading to a more standardized and scalable method of development
 
 ## Screenshots
 ![Performance improvement results](./assets/screenshots/recalculates-style-test-results.png "Performance improvement results")
