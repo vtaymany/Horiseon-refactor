@@ -35,7 +35,7 @@
 ## Screenshots
 ![Performance improvement results](./assets/screenshots/recalculates-style-test-results.png "Performance improvement results")
 ![Original performance](./assets/screenshots/original-recalcualate-style-time.png "Original performance")
-![Original performance](./assets/screenshots/recalculates-style-test-results.png "Refactored performance")
+![Original performance](./assets/screenshots/refactored-recalcualate-style-time.png "Refactored performance")
 
 ## Credits
 * [Google - Reduce the Scope and Complexity of Style Calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
